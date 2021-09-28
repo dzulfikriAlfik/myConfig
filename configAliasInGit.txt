@@ -1,0 +1,13 @@
+alias ls='ls -F --color=auto --show-control-chars'
+alias ll='ls -l'
+alias cko='git checkout'
+alias graph="git log --all --decorate --oneline --graph"
+alias addall="git add ."
+alias branch="git branch"
+alias add="git add"
+alias stt="git status"
+alias push="git push"
+alias addcm="git commit -m"
+alias modcm="git commit -am"
+alias conemail="git config --global user.email"
+alias conuser="git config --global user.name"
