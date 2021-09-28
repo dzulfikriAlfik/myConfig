@@ -1,0 +1,6 @@
+pada saat pertama kali install git di komputer lokal lakukan :
+
+1. Atur Config :
+    - git config --global user.email dzulfikrialfik@gmail.com
+    - git config --global user.name dzulfikriAlfik
+    - git config --global push.default current
