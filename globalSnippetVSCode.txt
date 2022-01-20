@@ -1,0 +1,74 @@
+{
+	"Php Echo Tag With $ Variable": {
+		"scope": "javascript,typescript,html,php",
+		"prefix": "phpp",
+		"body": [
+			"<?= $$1; ?>"
+		],
+		"description": "Tag Php Echo"
+	},
+	"Php Echo Without $ variable": {
+		"scope": "javascript,typescript,html,php",
+		"prefix": "phpe",
+		"body": [
+			"<?= $1; ?>"
+		],
+		"description": "Tag Php Echo"
+	},
+	"Php Tag": {
+		"scope": "javascript,typescript,html,php",
+		"prefix": "php",
+		"body": [
+			"<?php $1 ?>"
+		],
+		"description": "Tag Php Echo"
+	},
+	"Console.log": {
+		"scope": "javascript",
+		"prefix": "colog",
+		"body": [
+			"console.log($1);"
+		],
+		"description": "Console Log Javascript"
+	},
+	"Php Echo base_url": {
+		"scope": "javascript,typescript,html,php",
+		"prefix": "phpb",
+		"body": [
+			"<?= base_url('$1'); ?>"
+		],
+		"description": "Tag Php base_url"
+	},
+	"Php Echo form_error": {
+		"scope": "javascript,typescript,html,php",
+		"prefix": "phpfe",
+		"body": [
+			"<?= form_error('$1', '$2', '$3'); ?>"
+		],
+		"description": "Tag Php echo form_error"
+	},
+	"echo <br> in php": {
+		"scope": "javascript,typescript,html,php",
+		"prefix": "ebr",
+		"body": [
+			"echo '<br>';"
+		],
+		"description": "echo <br> in php"
+	},
+	"ruler and br": {
+		"scope": "javascript,typescript,html,php",
+		"prefix": "rbr",
+		"body": [
+			"echo '<br>-------------------------------<br>';"
+		],
+		"description": "ruler and br"
+	},
+	"Method Controller in codeigniter": {
+		"scope": "php",
+		"prefix": "pubfunc",
+		"body": [
+			"public function ${1:controllerName}($2) \n{\n$0\n}"
+		],
+		"description": "public function in OOP"
+	}
+}

@@ -1,0 +1,73 @@
+{
+  "editor.formatOnSave": true,
+  "editor.formatOnSaveTimeout": 1,
+"files.autoSaveDelay": 999999999999,
+  "workbench.colorTheme": "One Dark Pro",
+  "workbench.iconTheme": "vscode-icons",
+  "editor.fontLigatures": true,
+  "editor.fontFamily": "Fira Code, Source Code Pro, Menlo, Monaco, 'Courier New', monospace",
+  "sync.gist": "cb471a8afcdc10ae5cbdd28333fb2fa1",
+  "sync.forceDownload": true,
+  "sync.quietSync": true,
+  "workbench.sideBar.location": "right",
+  "editor.minimap.enabled": true,
+  "workbench.colorCustomizations": {},
+  "liveServer.settings.donotShowInfoMsg": true,
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "liveServer.settings.donotVerifyTags": true,
+  "intelephense.files.associations": ["*.php", "*.blade.php", "*.phtml"],
+  "files.associations": {
+    ".blade.php": "html",
+    ".tpl": "html"
+  },
+  "indentRainbow.indentSetter": {},
+  "intelephense.diagnostics.undefinedTypes": false,
+  "intelephense.diagnostics.undefinedSymbols": false,
+  "intelephense.diagnostics.undefinedProperties": false,
+  "intelephense.diagnostics.undefinedMethods": false,
+  "intelephense.diagnostics.undefinedFunctions": false,
+  "intelephense.diagnostics.undefinedConstants": false,
+  "intelephense.diagnostics.undefinedClassConstants": false,
+  "editor.fastScrollSensitivity": 50,
+  "editor.wordWrap": "on",
+  "[html]": {
+    "editor.defaultFormatter": "HookyQR.beautify"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "HookyQR.beautify"
+  },
+  "liveSassCompile.settings.formats": [
+    {
+      "format": "expanded",
+      "extensionName": ".css",
+      "savePath": "css"
+    }
+  ],
+  "mssql.connections": [
+    {
+      "server": "{{put-server-name-here}}",
+      "database": "{{put-database-name-here}}",
+      "user": "{{put-username-here}}",
+      "password": ""
+    }
+  ],
+  "sync.autoDownload": true,
+  "sync.forceUpload": true,
+  "sync.autoUpload": true,
+  "editor.linkedEditing": true,
+  "bracketPairColorizer.depreciation-notice": false,
+  "phpformatter.composer": true,
+  "phpformatter.arguments": [""],
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "html.format.wrapLineLength": 240,
+  "[php]": {
+    "editor.formatOnSave": true
+  },
+  "phpfmt.indent_with_space" : 3,
+  "phpfmt.psr2" : false,
+"phpfmt.psr1": true,
+"prettier.tabWidth": 3,
+"editor.tabSize": 3,
+"intelephense.format.enable": false
+}

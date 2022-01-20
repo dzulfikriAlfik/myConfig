@@ -1,0 +1,90 @@
+{
+	// Place your global snippets here. Each snippet is defined under a snippet name and has a scope, prefix, body and 
+	// description. Add comma separated ids of the languages where the snippet is applicable in the scope field. If scope 
+	// is left empty or omitted, the snippet gets applied to all languages. The prefix is what is 
+	// used to trigger the snippet and the body will be expanded and inserted. Possible variables are: 
+	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. 
+	// Placeholders with the same ids are connected.
+	// Example:
+	// "Print to console": {
+	// 	"scope": "javascript,typescript",
+	// 	"prefix": "log",
+	// 	"body": [
+	// 		"console.log('$1');",
+	// 		"$2"
+	// 	],
+	// 	"description": "Log output to console"
+	// }
+	"Php Echo Tag With $ Variable": {
+		"scope": "javascript,typescript,html,php",
+		"prefix": "phpp",
+		"body": [
+			"<?= $$1; ?>"
+		],
+		"description": "Tag Php Echo"
+	},
+	"Php Echo Without $ variable": {
+		"scope": "javascript,typescript,html,php",
+		"prefix": "phpe",
+		"body": [
+			"<?= $1; ?>"
+		],
+		"description": "Tag Php Echo"
+	},
+	"Php Tag": {
+		"scope": "javascript,typescript,html,php",
+		"prefix": "php",
+		"body": [
+			"<?php $1 ?>"
+		],
+		"description": "Tag Php Echo"
+	},
+	"Console.log": {
+		"scope": "javascript",
+		"prefix": "colog",
+		"body": [
+			"console.log($1);"
+		],
+		"description": "Console Log Javascript"
+	},
+	"Php Echo base_url": {
+		"scope": "javascript,typescript,html,php",
+		"prefix": "phpb",
+		"body": [
+			"<?= base_url('$1'); ?>"
+		],
+		"description": "Tag Php base_url"
+	},
+	"Php Echo form_error": {
+		"scope": "javascript,typescript,html,php",
+		"prefix": "phpfe",
+		"body": [
+			"<?= form_error('$1', '$2', '$3'); ?>"
+		],
+		"description": "Tag Php echo form_error"
+	},
+	"echo <br> in php": {
+		"scope": "javascript,typescript,html,php",
+		"prefix": "ebr",
+		"body": [
+			"echo '<br>';"
+		],
+		"description": "echo <br> in php"
+	},
+	"ruler and br": {
+		"scope": "javascript,typescript,html,php",
+		"prefix": "rbr",
+		"body": [
+			"echo '<br>-------------------------------<br>';"
+		],
+		"description": "ruler and br"
+	},
+	"Method Controller in codeigniter": {
+		"scope": "php",
+		"prefix": "pubfunc",
+		"body": [
+			"public function ${1:controllerName}($2) \n{\n$0\n}"
+		],
+		"description": "public function in OOP"
+	}
+}
