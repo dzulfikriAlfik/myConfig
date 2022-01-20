@@ -1,0 +1,14 @@
+THEME
+- Community Material Theme
+- Material Theme
+- Material Theme Icons
+- Mayukai Theme
+- Monokai Pro
+- One Dark Pro (Used)
+
+ICONS
+- Nomo Dark Icon Theme
+- Material Icon Theme
+- VSCode Great Icons
+- vscode-icons
+- Material Theme Icons
